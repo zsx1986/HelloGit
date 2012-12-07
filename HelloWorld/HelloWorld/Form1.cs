@@ -22,6 +22,13 @@ namespace HelloWorld
                 this.button1.Text = "Hello Dell";
             else
                 this.button1.Text = "Hello World";
+
+            MessageBox.Show("Clicked button1!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
